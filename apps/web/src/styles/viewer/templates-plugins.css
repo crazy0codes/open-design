@@ -2233,6 +2233,14 @@
   font-size: 12px;
   gap: 6px 10px;
 }
+.plugin-info-pane .plugin-details-modal__source dt {
+  align-self: start;
+  padding-top: 2px;
+}
+.plugin-info-pane .plugin-details-modal__source dd {
+  min-width: 0;
+  align-items: baseline;
+}
 .plugin-info-pane .plugin-details-modal__source dd code {
   word-break: break-all;
 }
