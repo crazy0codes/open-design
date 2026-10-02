@@ -2229,15 +2229,17 @@
   font-size: 12px;
 }
 .plugin-info-pane .plugin-details-modal__source {
-  grid-template-columns: minmax(84px, max-content) minmax(0, 1fr);
+  grid-template-columns: 84px 1fr;
   font-size: 12px;
   gap: 6px 10px;
 }
 .plugin-info-pane .plugin-details-modal__source dt {
-  white-space: nowrap;
+  align-self: start;
+  padding-top: 2px;
 }
 .plugin-info-pane .plugin-details-modal__source dd {
   min-width: 0;
+  align-items: baseline;
 }
 .plugin-info-pane .plugin-details-modal__source dd code {
   word-break: break-all;
